@@ -1,0 +1,28 @@
+#include<stdio.h> 
+int main() 
+{ 
+    int i,n,arr[20],temp; 
+    int small = 9999, small_pos=0; 
+    int large = -9999,large_pos=0; 
+    printf("Enter the size of an array "); 
+    scanf("%d",&n); 
+    printf("Enter the value of element of an array"); 
+    for(i=0;i<n;i++) 
+    scanf("%d",&arr[i]); 
+    for(i=0;i<n;i++) 
+    { 
+        if(arr[i]<small) 
+          { 
+               small = arr[i]; 
+               small_pos = i; 
+          } 
+          if(arr[i]>large) 
+           { 
+               large = arr[i]; 
+               large_pos= i; 
+           } 
+       } 
+       printf("\n the largest number among these is : %d & thier postion is %d" ,large,large_pos);
+       printf("\n the smallest number among these is : %d & thier postion is  %d ",small,small_pos); 
+       return 0; 
+} 
