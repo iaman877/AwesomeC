@@ -1,0 +1,23 @@
+#include <stdio.h> 
+int main() 
+{ 
+    int i,n,arr[20],sum =0; 
+    int *pn = &n, *parr = arr, *psum = &sum; 
+    float menas = 0.0, *pmeans = &menas; 
+    printf("\n Enter the element of an array "); 
+    scanf("%d",pn); 
+    for(i=0;i<*pn;i++) 
+    { 
+        printf("Enter the number"); 
+        scanf("%d",(parr+i)); 
+    } 
+    for(i=0;i<*pn;i++) 
+       *psum += *(arr+i); 
+       *pmeans = *psum/ *pn; 
+   //  printf("\n Number you entered are "); 
+   //  for(i=0;i<*pn;i++) 
+   //    printf("%d",*(parr+ 1)); 
+     printf("\n The sum is %d ",*psum); 
+     printf("\n the mean is %f",*pmeans); 
+    return 0; 
+} 
