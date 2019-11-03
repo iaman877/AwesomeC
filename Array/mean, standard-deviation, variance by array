@@ -1,0 +1,23 @@
+#include<stdio.h> 
+#include<math.h> 
+int main() 
+{ 
+    int i,n; 
+    float arr[20],std_dev, sum =0, sum_sqr=0,mean,variance,deviation=0; 
+    printf("\n Enter the size f an array "); 
+    scanf("%d",&n); 
+    printf("\n Enter the value of the array "); 
+    for(i=0;i<n;i++){ 
+    scanf("%f",&arr[i]); 
+    sum = sum+arr[i]; 
+    } 
+    mean = sum/(float)n; 
+    for(i=0;i<n;i++) 
+    { 
+        deviation = arr[i] - mean; 
+        sum_sqr += sqrt(variance); 
+    } 
+    variance = sum_sqr/(float)n; 
+    std_dev= sqrt(variance); 
+    printf("\n mena : %.2f \n standard deviaton : %f \n variance : %.2f",mean,deviation,variance); 
+}
