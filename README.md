@@ -8,13 +8,13 @@ But C is considered as a Middle level Language.
 
 ## Some examples of the use of C might be:
 
-Operating Systems
-Language Compilers
-Assemblers
-Text Editors
-Print Spoolers
-Network Drivers
-Modern Programs
-Data Bases
-Language Interpreters
-Utilities
+Operating Systems,
+Language Compilers,
+Assemblers,
+Text Editors,
+Print Spoolers,
+Network Drivers,
+Modern Programs,
+Data Bases,
+Language Interpreters,
+Utilities .
