@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+ {
+   int n;
+   char name[10];
+   FILE *ptr1, *ptr2, *ptr3;     //FILE is typedef struct in stdio.h
+   
+//File open in 'w' mode: Overwrite if file exists, else create new file
+   ptr1=fopen("program.txt","w");
+//Writing to File: (1) Get from std.Input (2) Copy to BOF
+   printf("Enter No. to File: ");
+   scanf("%d",&n);            //(1)
+   fprintf(ptr1,"%d", n);     //(2)
+   fclose(ptr1);             //File close
+   
+//...............................................................
+//File open in 'a' mode: Append to EOF if file exists
+    ptr2=fopen("program.txt","a");
+    if (ptr2==NULL)          //If File does not exist
+     {
+        printf("File Does not Exist\n");
+        exit(1);
+     }
+//Writing to File: (1) Get from std.Input (2) Append to EOF
+     printf("Enter Name to Append File: ");
+     scanf("%s", name);            //(1)
+     fprintf(ptr2,"%s",name);     //(2)
+     fclose(ptr2);               //File close
+     
+//...............................................................
+//File open in 'r' mode: Open existing file, else return NULL
+    ptr3=fopen("program.txt","r");
+    if (ptr3==NULL)               //If File does not exist
+     {
+       printf("File Does not Exist\n");
+        exit(1);
+     }
+//Getting Data from file: (1)From File to Variable, (2) Variable to Std. output
+fscanf(ptr3,"%d %s", &n, name);         //1
+printf("Value in File....\nNo.= %d, Name = %s",n, name);      //2
+fclose(ptr3);        //Close File
+return 0;
+}
