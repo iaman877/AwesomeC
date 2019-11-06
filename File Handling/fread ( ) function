@@ -1,0 +1,16 @@
+#include <stdio.h> 
+int main() 
+{ 
+    FILE *fp; 
+    char str[11]; 
+    fp = fopen("Letter.txt","r+"); 
+    if(fp == NULL) 
+    { 
+        printf("\n unable to open the file "); 
+        exit(1); 
+    } 
+    fread(str,1,10,fp); // in the str 10 object of 1 byte are  read from file pointed by fp 
+    str[10] = '\0'; 
+    printf("\n First nine charcter are : %s ",str); 
+    fclose(fp); 
+}  return 0;
