@@ -1,0 +1,18 @@
+#include<stdio.h> 
+int main() 
+{ 
+    FILE *fp; 
+    char data[30]; 
+    fp = fopen("Aman.txt","w"); 
+    if(fp == NULL) 
+    { 
+        printf("\n Unable to create to open the file "); 
+    } 
+    else{ 
+            printf("\n Enter the string to be wrote in the file "); 
+                gets(data); 
+                fputs(data,fp); 
+        } 
+        printf("\n data written succesfully "); 
+        fclose(fp); 
+    } 
