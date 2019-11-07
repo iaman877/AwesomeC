@@ -7,8 +7,8 @@ int fib(int n)
 }  
 int main ()  
 {  
-  int n = 9;  
-  printf("%d", fib(n));  
-  getchar();  
-  return 0;  
+   int n = 9;  
+   printf("%d", fib(n));  
+   getchar();  
+   return 0;  
 } 
