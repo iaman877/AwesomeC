@@ -1,9 +1,9 @@
 #include<stdio.h> 
 struct student 
 { 
-    char name[20]; 
-    int roll_no; 
-    int marks; 
+     char name[20]; 
+     int roll_no; 
+     int marks; 
 }; 
  void print_struct(char name[], int roll_no, int marks); 
  int main() 
