@@ -13,5 +13,5 @@ int main()
 } 
 void display(int a, int b) 
 { 
-    printf("\n The cordinates of a points is %d %d ",a,b); 
+     printf("\n The cordinates of a points is %d %d ",a,b); 
 } 
