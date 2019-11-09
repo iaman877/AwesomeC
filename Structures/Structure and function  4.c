@@ -13,5 +13,5 @@ int main()
 } 
 void display(POINT p) 
 { 
-    printf("%d %d",p.x,p.y); 
+     printf("%d %d",p.x,p.y); 
 } 
