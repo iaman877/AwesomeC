@@ -1,0 +1,36 @@
+#include <stdlib.h> 
+int main() 
+{ 
+    int **arr, i, j, Row, Coll; 
+    printf("\n Ennter the row & column of an arrray "); 
+    scanf("%d %d", &Row,&Coll); 
+    arr = (int **)malloc(Row*sizeof(int*)); 
+    if(arr == NULL) 
+    { 
+        printf("Meomary could be open"); 
+        exit(0); 
+    } 
+    
+    for(i=0;i<Row;i++) 
+    { 
+        arr[i] = (int *)malloc(Coll* sizeof(int)); 
+        if(arr[i] == NULL) 
+        { 
+            printf("\n Meomary allaction is failed "); 
+            exit(-1); 
+        } 
+    } 
+      printf("\n Enter the value of an array "); 
+         for(i=0;i<Row;i++) 
+           for(j=0;j<Coll;j++) 
+             scanf("%d",&arr[i][j]); 
+      printf("\n Entered array as fallows  "); 
+          for(i=0;i<Row;i++) 
+            for(j=0;j<Coll;j++) 
+              printf("%d",arr[i][j]); 
+   
+         for(i=0;i<Row;i++) 
+          free(arr[i]); 
+            free(arr); 
+      return 0;  
+ } 
