@@ -19,7 +19,6 @@ $ gcc main.c func_def.c  -o EDF
 
 ### How the program looks like
 ```bash
-winston@winston-VirtualBox:~/EDF_Scheduler$ ./EDF
 Enter number of tasks
 3
 Enter Task 1 parameters
