@@ -1,9 +1,4 @@
-/*
- * main.c
- *
- *  Created on: 27-Jan-2016
- *      Author: winston
- */
+
 #include<stdio.h>
 #include"edf.h"
 
