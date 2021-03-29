@@ -1,0 +1,18 @@
+#ORG 4000H
+
+	 LDA 4101
+	 MOV B, A 
+	 LDA 4102
+	 MOV M, A
+	 MVI D, 00
+
+LOOP:	 INR D
+	 SUB B
+	 JNZ   LOOP
+
+	 MOV A, D
+	 STA 4103
+	 HLT
+
+#ORG 4101H
+#DB 03, 09
