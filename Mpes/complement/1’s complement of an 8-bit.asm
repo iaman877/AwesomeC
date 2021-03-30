@@ -1,0 +1,8 @@
+# ORG 7000H
+
+	   LDA 7250
+	   CMA
+	   STA 7251
+	   HLT
+
+# ORG 7250H
