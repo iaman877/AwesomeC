@@ -18,7 +18,7 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 - Multiplication of two 8bit Numbers
 - Division of two 8bit Numbers
 
-### [complement](.)
+### [complement](https://github.com/iaman877/AwesomeC/tree/master/Mpes/complement)
 
 - 1’s complement of an 8-bit number
 - 2’s complement of an 8-bit number
