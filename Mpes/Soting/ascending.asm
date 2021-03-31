@@ -1,0 +1,25 @@
+# BEGIN 0000H
+
+START:	MVI D,05
+
+LOOP:	LXI H,C020
+	    MVI C,05
+
+BACK:  MOV A,M
+	   INX H
+	   MOV B,M
+	   CMP B
+	   JM SKIP
+	   MOV M,A
+	   DCX H
+	   MOV M,B
+	   INX H
+
+SKIP:  DCR C
+	   JNZ BACK
+	   DCR D
+	   JNZ LOOP
+	   HLT
+       
+# ORG C020
+# DB BBH,AAH,99H,88H,77H,66H
