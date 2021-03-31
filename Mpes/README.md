@@ -25,7 +25,7 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 - 1’s complement of a 16-bit number
 - 2’s complement of a 16-bit number
 
-### [Mask off]()
+### [Mask off](https://github.com/iaman877/AwesomeC/tree/master/Mpes/Mask-off)
 
 - Mask off Least significant 4 bits of an 8-bit number
 - Mask off Most significant 4 bits of an 8-bit number
