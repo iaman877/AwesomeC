@@ -4,8 +4,6 @@
 
 ### 1’s complement of an 8-bit number
 
-- 2’s complement of a 16-bit number
-
 ![image](https://user-images.githubusercontent.com/49730521/112941062-a57dec80-914b-11eb-8280-66e435c1123e.png)
 
 ### 2’s complement of an 8-bit number
