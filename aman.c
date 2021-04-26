@@ -30,6 +30,15 @@ void cube()
    scanf("%d",&r);
    glColor3f(0.0f,0.0f,1.0f); 
    glutWireCube(r);
+    
+   glFlush();
+}
+void  teapot()
+{
+   printf("\nEnter the side of Teapot: ");
+   scanf("%d",&r);
+   glColor3f(0.0f,0.0f,1.0f); 
+    glutSolidTeapot(r);
    glFlush();
 }
 void display(void)
@@ -48,6 +57,8 @@ while(1)
       cone();
    else if(k==3)
       cube();
+    else if(k==4)
+      teapot();
    else if(k==0)
       break;
    else
