@@ -41,4 +41,9 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 -  Conversion of HEX to Decimal
 -  Conversion of HEX to Binary
 
-### 8085 MicroProcessor Programs
+### 8051 MicroProcessor Programs
+- [Program for blinking LEDs (converge and diverge without overlapping) at any GPIO pins](https://github.com/iaman877/AwesomeC/blob/master/Mpes/8051%20Microcontroller%20Programs/BlinkingLED.c)
+- [Program To Display Counter Of 0 To 9999 On Seven Segment Display](https://github.com/iaman877/AwesomeC/blob/master/Mpes/8051%20Microcontroller%20Programs/Seven%20segment%20display/seven%20segment.c)
+- [Program for interfacing 16x2 LCD with 8051 MICROCONTROLLER](https://github.com/iaman877/AwesomeC/blob/master/Mpes/8051%20Microcontroller%20Programs/interfacing%2016x2LCD.c)
+- [Program To Control The Operation Of Relay And Buzzer](https://github.com/iaman877/AwesomeC/blob/master/Mpes/8051%20Microcontroller%20Programs/Relay%20And%20Buzzer.c)
+- [Program To Control The Operation Of Stepper Motor](https://github.com/iaman877/AwesomeC/blob/master/Mpes/8051%20Microcontroller%20Programs/Stepper%20Motor.c)
