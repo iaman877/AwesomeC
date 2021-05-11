@@ -41,4 +41,3 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 -  Conversion of convert BCD to Hex
 -  Conversion of HEX to Decimal
 -  Conversion of HEX to Binary
--   
