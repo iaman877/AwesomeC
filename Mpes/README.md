@@ -29,3 +29,8 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 
 - Mask off Least significant 4 bits of an 8-bit number
 - Mask off Most significant 4 bits of an 8-bit number
+
+### [Sorting](https://github.com/iaman877/AwesomeC/tree/master/Mpes/Soting)
+
+- Arranging of data array in ascending order
+- Arranging of data array in descending order
