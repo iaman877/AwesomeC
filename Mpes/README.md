@@ -18,7 +18,7 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 - Multiplication of two 8bit Numbers
 - Division of two 8bit Numbers
 
-### [complement](https://github.com/iaman877/AwesomeC/tree/master/Mpes/complement)
+### [Complement](https://github.com/iaman877/AwesomeC/tree/master/Mpes/complement)
 
 - 1’s complement of an 8-bit number
 - 2’s complement of an 8-bit number
@@ -34,3 +34,11 @@ https://github.com/8085simulator/8085simulator/raw/master/dist/8085Compiler.jar
 
 - Arranging of data array in ascending order
 - Arranging of data array in descending order
+
+### [Conversion](https://github.com/iaman877/AwesomeC/tree/master/Mpes/Conversion)
+
+-  Conversion of ASCII to Decimal
+-  Conversion of convert BCD to Hex
+-  Conversion of HEX to Decimal
+-  Conversion of HEX to Binary
+-   
